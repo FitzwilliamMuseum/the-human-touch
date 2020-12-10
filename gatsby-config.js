@@ -3,7 +3,6 @@ module.exports = {
     title: `The Human Touch`,
     description: `Making Art | Leaving Traces`,
     author: `@dejpett`,
-    pathPrefix: "/the-human-touch",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
