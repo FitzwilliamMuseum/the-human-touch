@@ -8,6 +8,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import 'bootstrap/dist/css/bootstrap.css';
+import Helmet from 'react-helmet'
+import Video from '../components/video'
 
 import Header from "./header"
 import "./layout.css"
@@ -25,23 +28,18 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <Helmet>
+    <body className="text-center" />
+</Helmet>
+<Video src='/tease.mp4' className="fullscreen"/>
+    <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer style={{
-          marginTop: `2rem`
-        }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
+      <main role="main" className="inner cover">{children}</main>
+      <footer className="mastfoot mt-auto">
+    <div className="inner">
+    </div>
+  </footer>
+    </div>
     </>
   )
 }
