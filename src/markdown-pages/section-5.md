@@ -1,6 +1,6 @@
 ---
 title: 'The Power of Touch'
-slug: '/exhibition/the-power-of-touch/'
+slug: '/about/exhibition/the-power-of-touch/'
 date: '2020-12-11'
 order: 5
 featuredImgUrl: 'https://fitz-cms-images.s3.eu-west-2.amazonaws.com/1960.400.jpg'

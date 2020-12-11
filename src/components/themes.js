@@ -47,7 +47,7 @@ const Themes = () => {
             <Card style={{ width: '18rem' }} className="no-radius bg-dark h-100 ">
                 <Card.Img variant="top" src={edge.node.featuredImg.childImageSharp.fixed.src} />
                 <Card.Body>
-                    <Card.Title>{edge.node.frontmatter.title}</Card.Title>
+                    <a href={edge.node.frontmatter.slug} className="stretched-link"><Card.Title>{edge.node.frontmatter.title}</Card.Title></a>
 
                 </Card.Body>
             </Card >

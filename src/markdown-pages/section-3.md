@@ -1,6 +1,6 @@
 ---
 title: 'Hands at Work'
-slug: '/exhibition/hands-at-work'
+slug: '/about/exhibition/hands-at-work'
 date: '2020-12-11'
 order: 3
 featuredImgUrl: 'https://fitz-cms-images.s3.eu-west-2.amazonaws.com/hand-of-frank-auerbach.png'

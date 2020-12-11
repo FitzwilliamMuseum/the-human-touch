@@ -1,6 +1,6 @@
 ---
 title: 'Revere/Destroy'
-slug: '/exhibition/revere-destroy'
+slug: '/about/exhibition/revere-destroy'
 date: '2020-12-11'
 order: 6
 featuredImgUrl: 'https://fitz-cms-images.s3.eu-west-2.amazonaws.com/706_1_detail_201308_dc1-1.jpg'

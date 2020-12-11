@@ -1,6 +1,6 @@
 ---
 title: 'Anatomy of Touch'
-slug: '/exhibition/anatomy-of-touch'
+slug: '/about/exhibition/anatomy-of-touch'
 date: '2020-12-11'
 order: 2
 featuredImgUrl: 'https://fitz-cms-images.s3.eu-west-2.amazonaws.com/hand.jpg'

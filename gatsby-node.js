@@ -13,6 +13,8 @@ exports.createPages = ({ actions, graphql }) => {
           node {
             frontmatter {
               slug
+              order
+              title
             }
           }
         }

@@ -1,6 +1,6 @@
 ---
 title: 'The Power in your Hands'
-slug: '/exhibition/the-power-in-your-hands'
+slug: '/about/exhibition/the-power-in-your-hands'
 date: '2020-12-11'
 order: 7
 featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/rodinhand.jpg?key=directus-large-crop&q=50'

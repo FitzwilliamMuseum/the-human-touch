@@ -1,6 +1,6 @@
 ---
 title: 'The Human Touch: Making Art, Leaving Traces'
-slug: '/exhibition/the-human-touch'
+slug: '/about/exhibition/the-human-touch'
 date: '2020-12-11'
 order: 1
 featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/e.w.66a_2_201507_kly25_dc1.jpg?key=directus-large-crop&q=50'
