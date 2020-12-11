@@ -30,8 +30,8 @@ const Layout = ({ children }) => {
     <>
     <Helmet>
     <body className="text-center" />
-</Helmet>
-<Video src='/tease.mp4' className="fullscreen"/>
+    </Helmet>
+    <Video src='/tease.mp4' className="fullscreen"/>
     <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main role="main" className="inner cover">{children}</main>
