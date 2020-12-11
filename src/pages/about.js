@@ -85,7 +85,7 @@ const About = () => (
 
     <Logos></Logos>
 
-    <div className="container" style={{marginTop: `15rem`}}>
+    <div className="container-fluid hands">
     </div>
     </Layout>
   )

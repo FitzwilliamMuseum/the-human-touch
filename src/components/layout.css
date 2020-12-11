@@ -30,6 +30,16 @@ filter: invert(100%) sepia(0%) saturate(7498%) hue-rotate(57deg) brightness(103%
 
 }
 
+.hands {
+  min-height: 200px;
+  background-image:url('https://fitz-cms-images.s3.eu-west-2.amazonaws.com/hands.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top:-17px;
+  margin-bottom: -15px;
+}
 
 /*
  * Base structure

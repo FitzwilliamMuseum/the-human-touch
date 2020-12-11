@@ -3,8 +3,8 @@ title: 'Hands at Work'
 slug: '/exhibition/hands-at-work'
 date: '2020-12-11'
 order: 3
-featuredImgUrl: 'https://fitz-cms-images.s3.eu-west-2.amazonaws.com/fitztht.png'
-featuredImgAlt: ''
+featuredImgUrl: 'https://fitz-cms-images.s3.eu-west-2.amazonaws.com/hand-of-frank-auerbach.png'
+featuredImgAlt: 'Hands at Work Bensley'
 ---
 
 Some artists depend on the full range of the hand’s capacities – strength, flexibility, delicacy. The intensive study of its anatomy is fundamental to the representation of proportion, balance and movement.

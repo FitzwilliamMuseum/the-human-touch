@@ -3,8 +3,8 @@ title: 'The Power of Touch'
 slug: '/exhibition/the-power-of-touch/'
 date: '2020-12-11'
 order: 5
-featuredImgUrl: 'https://fitz-cms-images.s3.eu-west-2.amazonaws.com/fitztht.png'
-featuredImgAlt: ''
+featuredImgUrl: 'https://fitz-cms-images.s3.eu-west-2.amazonaws.com/1960.400.jpg'
+featuredImgAlt: 'Avalokitesvara'
 ---
 The hand has been seen as an interface between the material and spiritual worlds. Tracing the lines of character and fate in the palm of the hand is for some a key to the soul. For others, the shape of the hand is a way of imagining god, a visual shorthand for divine power or divine blessings.
 
