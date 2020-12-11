@@ -5,12 +5,11 @@ import Logos from "../components/logos"
 import SEO from "../components/seo"
 import Button from 'react-bootstrap/Button'
 import { Link } from "gatsby"
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 import Themes from "../components/themes"
 
 // ..
-AOS.init();
+// AOS.init();
 
 
 // import Card from 'react-bootstrap/Card';

@@ -1,6 +1,17 @@
 import React from "react"
 
-const Logos = () => {
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
+class Logos extends React.Component {
+
+componentDidMount() {
+AOS.init();
+}
+componentDidUpdate() {
+AOS.refresh();
+}
+render () {
 
   return (
 
@@ -33,4 +44,5 @@ const Logos = () => {
 </section>
 
 )}
+}
 export default Logos

@@ -2,9 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 // import Img from "gatsby-image"
 import { Card } from 'react-bootstrap';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+
 const Themes = () => {
   const data = useStaticQuery(graphql`
     query {
