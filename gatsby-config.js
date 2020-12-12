@@ -3,7 +3,7 @@ module.exports = {
     title: `The Human Touch`,
     description: `Making Art | Leaving Traces`,
     author: `@dejpett`,
-    image: `/images/handprint.jpg`,
+    image: `/handprint.jpg`,
     url: `https://human-touch.beta.fitz.ms`
   },
   plugins: [
