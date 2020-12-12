@@ -63,6 +63,19 @@ module.exports = {
         linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
       }
     },
+    {
+    resolve: "gatsby-plugin-social-cards",
+    options: {
+      // ommit to skip
+      authorImage: "./staticHand of Frank Auerbach.png/FV.svg",
+      // image to use when no cover in frontmatter
+      backgroundImage: "./static/HandofFrankAuerbach.png",
+      // author to use when no auth in frontmatter
+      defaultAuthor: "The Fitzwilliam Museum",
+      // card design
+      design: "default", // 'default' or 'card'
+    },
+  },
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

@@ -17,13 +17,20 @@ const Header = ({ siteTitle }) => (
 >
   Home
 </Link>
-      <Link
-        to="/about"
+<Link
+  to="/about"
         getProps={isActive}
         className="nav-link"
       >
         About
       </Link>
+      <Link
+        to="/interactions"
+              getProps={isActive}
+              className="nav-link"
+            >
+              Interactions
+            </Link>
       </nav>
     </div>
   </header>

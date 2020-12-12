@@ -1,7 +1,6 @@
-Copysrc/components/video.js: copy code to clipboard
 import React from "react"
-const Video = ({ videoSrcURL, videoTitle, ...props }) => (
-  <div className="video">
+const VideoEmbed = ({ videoSrcURL, videoTitle, ...props }) => (
+  <div className="video embed-responsive embed-responsive-16by9">
     <iframe
       src={videoSrcURL}
       title={videoTitle}
@@ -10,6 +9,8 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
       webkitallowfullscreen="true"
       mozallowfullscreen="true"
       allowFullScreen
+      autoPlay={false}
+      autostart="false"
     />
   </div>
 )

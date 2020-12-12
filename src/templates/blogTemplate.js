@@ -4,7 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from 'react-bootstrap/Button'
 import { Link } from "gatsby"
-
+import Themes from "../components/themes"
+import Logos from "../components/logos"
+import Video from "../components/video"
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
@@ -12,6 +14,8 @@ export default function Template({
   const { frontmatter, featuredImg, html } = markdownRemark
   return (
     <Layout>
+    <Video src='/teaser_two.mp4' className="fullscreen"/>
+
     <SEO title={frontmatter.title} />
 
     <img src="https://fitz-cms-images.s3.eu-west-2.amazonaws.com/fv-logo-white.svg" alt="FitzVirtual Logo" width="200" />
@@ -41,6 +45,16 @@ export default function Template({
             </div>
           </div>
 
+      </div>
+      <div className="container" style={{marginTop: `5rem`}}>
+        <div className="themes">
+          <Themes/>
+        </div>
+      </div>
+
+      <Logos></Logos>
+
+      <div className="container-fluid hands">
       </div>
     </Layout>
   )
