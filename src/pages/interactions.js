@@ -25,11 +25,11 @@ export default function Interactions() {
 
     <p className="lead cover">6 January 2021 to 3 May 2021</p>
 
-    <div className="text-justify container-fluid bg-dark text-white p-1 ml-0 mr-0 mt-5">
+    <div className="text-justify container-fluid bg-dark text-white p-0 ml-0 mr-0 mt-5">
       <div className="row">
-         <div className="col-md-12 p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
+         <div className="col-md-12 p-0 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
          <VideoEmbed
-            videoSrcURL="/human.mp4"
+            videoSrcURL="https://player.vimeo.com/video/486958174"
             videoTitle="The Human Touch video wall film"
             className="embed-responsive-item"
           />
@@ -37,12 +37,12 @@ export default function Interactions() {
        </div>
      </div>
 
-    <div className="text-justify container-fluid bg-white text-dark p-1 ml-0 mr-0 mt-5">
+    <div className="text-justify container-fluid bg-white text-dark p-0 ml-0 mr-0 mt-5">
       <div className="row">
-         <div className="col-md-12 p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
+         <div className="col-md-12 p-0 aos-init aos-animate" data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
          <VideoEmbed
             videoSrcURL="https://player.vimeo.com/video/483625519"
-            videoTitle="The Human Touch video wall film"
+            videoTitle="The Human Touch, Run at the Fitzwilliam Museum"
             className="embed-responsive-item"
           />
          </div>
