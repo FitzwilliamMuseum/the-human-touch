@@ -4,9 +4,11 @@ module.exports = {
     description: `Making Art | Leaving Traces`,
     author: `@dejpett`,
     image: `/handprint.jpg`,
-    url: `https://human-touch.beta.fitz.ms`
+    url: `https://human-touch.beta.fitz.ms`,
+    siteUrl: `https://human-touch.beta.fitz.ms`
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
