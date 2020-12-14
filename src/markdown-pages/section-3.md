@@ -3,7 +3,7 @@ title: 'Hands at Work'
 slug: '/about/exhibition/hands-at-work'
 date: '2020-12-11'
 order: 3
-featuredImgUrl: 'https://fitz-cms-images.s3.eu-west-2.amazonaws.com/hand-of-frank-auerbach.png'
+featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/Hand%20of%20Frank%20Auerbach.png?key=directus-medium-crop'
 featuredImgAlt: 'Hands at Work Bensley'
 ---
 

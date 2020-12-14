@@ -74,11 +74,14 @@ export const pageQuery = graphql`
       }
       featuredImg {
         childImageSharp {
-          fixed(width: 400) {
-            base64
-            width
-            height
-            srcSet
+          fluid(duotone: {highlight: "#a3c1ad", shadow: "#192550", opacity: 50}, traceSVG: {color: "red"}) {
+            originalName
+            src
+            sizes
+          }
+          fixed(width: 300) {
+            aspectRatio
+            originalName
             src
           }
         }

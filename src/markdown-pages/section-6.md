@@ -3,7 +3,7 @@ title: 'Revere/Destroy'
 slug: '/about/exhibition/revere-destroy'
 date: '2020-12-11'
 order: 6
-featuredImgUrl: 'https://fitz-cms-images.s3.eu-west-2.amazonaws.com/706_1_detail_201308_dc1-1.jpg'
+featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/706_1_detail_201308_dc1.jpg?key=directus-medium-crop'
 featuredImgAlt: 'Slashed panel'
 ---
 Acts of reverence and of protest often depend on touch. Our emotions are revealed in our gestures and how we treat the objects around us.
