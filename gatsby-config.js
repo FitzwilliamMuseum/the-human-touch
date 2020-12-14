@@ -69,7 +69,7 @@ module.exports = {
     resolve: "gatsby-plugin-social-cards",
     options: {
       // ommit to skip
-      authorImage: "./staticHand of Frank Auerbach.png/FV.svg",
+      authorImage: "./static/FV.svg",
       // image to use when no cover in frontmatter
       backgroundImage: "./static/HandofFrankAuerbach.png",
       // author to use when no auth in frontmatter

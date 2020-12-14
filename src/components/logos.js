@@ -25,13 +25,6 @@ render () {
         </div>
       </div>
 
-      <div className="col-lg-3 col-md-5 col-sm-6 mr-5 aos-init aos-animate mb-3" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-        <div className="mx-auto mb-30 mw-270 h-160 d-flex justify-content-center align-items-center radius6 block">
-          <a href="https://www.nissenrichardsstudio.com/"><img src="https://fitz-cms-images.s3.eu-west-2.amazonaws.com/nissen.svg" alt="Nissen Richards" width="200" className="nissen"/></a>
-        </div>
-      </div>
-
-
       <div className="col-lg-3 col-md-5 col-sm-6 aos-init aos-animate mb-3" data-aos-duration="600" data-aos="fade-down" data-aos-delay="450">
         <div className="mx-auto mb-30 mw-270 h-160 d-flex justify-content-center align-items-center radius6 block">
           <a href="https://cam.ac.uk"><img src="https://fitz-cms-images.s3.eu-west-2.amazonaws.com/reversecam.png" alt="FitzVirtual Logo" width="300" className="pt-3"/></a>
