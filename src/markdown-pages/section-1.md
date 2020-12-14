@@ -1,5 +1,6 @@
 ---
 title: 'The Human Touch: Making Art, Leaving Traces'
+description: "The first section of the exhibition - The Human Touch"
 slug: '/about/exhibition/the-human-touch'
 date: '2020-12-11'
 order: 1

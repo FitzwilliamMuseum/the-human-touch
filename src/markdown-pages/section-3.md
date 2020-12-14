@@ -5,6 +5,7 @@ date: '2020-12-11'
 order: 3
 featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/Hand%20of%20Frank%20Auerbach.png?key=directus-medium-crop'
 featuredImgAlt: 'Hands at Work Bensley'
+description: "The third section of the exhibition - hands at work"
 ---
 
 Some artists depend on the full range of the hand’s capacities – strength, flexibility, delicacy. The intensive study of its anatomy is fundamental to the representation of proportion, balance and movement.

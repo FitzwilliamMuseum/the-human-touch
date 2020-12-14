@@ -16,7 +16,10 @@ export default function Template({
     <Layout>
     <Video src='/teaser_two.mp4' className="fullscreen"/>
 
-    <SEO title={frontmatter.title} />
+    <SEO
+    title={frontmatter.title}
+    description={frontmatter.description}
+    />
 
     <img src="https://fitz-cms-images.s3.eu-west-2.amazonaws.com/fv-logo-white.svg" alt="FitzVirtual Logo" width="200" />
 
@@ -68,13 +71,14 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         slug
         title
+        description
         order
         featuredImgUrl
         featuredImgAlt
       }
       featuredImg {
         childImageSharp {
-          fluid(duotone: {highlight: "#a3c1ad", shadow: "#192550", opacity: 50}, traceSVG: {color: "red"}) {
+          fluid(duotone: {highlight: "#a3c1ad", shadow: "#192550", opacity: 50}, traceSVG: {color: "#a3c1ad"}) {
             originalName
             src
             sizes

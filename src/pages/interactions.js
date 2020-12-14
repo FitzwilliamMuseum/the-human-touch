@@ -13,8 +13,10 @@ export default function Interactions() {
   return (
     <Layout>
     <Video src='/teaser_three.mp4' />
-
-    <SEO title="Interactions and video" />
+    <SEO
+    title="Interactions and video"
+    description="The Human Touch, a Fitzwilliam Museum exhibition has a variety of interactive components."
+    />
 
     <img src="https://fitz-cms-images.s3.eu-west-2.amazonaws.com/fv-logo-white.svg" alt="FitzVirtual Logo" width="200" />
 

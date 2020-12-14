@@ -19,8 +19,10 @@ const About = () => (
 
     <Layout>
 
-    <SEO title="About the exhibition" />
-
+    <SEO
+    title="About the exhibition"
+    description="This page documents the sections behind the Fitzwilliam Museum's exhibition on the Human Touch"
+    />
     <img src="https://fitz-cms-images.s3.eu-west-2.amazonaws.com/fv-logo-white.svg" alt="FitzVirtual Logo" width="200" />
 
     <h1 style={{fontSize: `4rem`}}>The Human Touch</h1>

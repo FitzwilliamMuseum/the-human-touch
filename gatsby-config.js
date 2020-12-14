@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `The Human Touch`,
-    description: `Making Art | Leaving Traces`,
+    tagline: `Making Art | Leaving Traces`,
+    description: `The Fitzwilliam Museum's spring exhibition - The Human Touch - 6th January to 21st May 2020`,
     author: `@dejpett`,
     image: `/handprint.jpg`,
     url: `https://human-touch.beta.fitz.ms`,
