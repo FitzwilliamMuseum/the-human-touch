@@ -42,10 +42,10 @@ const Themes = () => {
       <div className="row justify-content-center">
         {data.allMarkdownRemark.edges.map(edge => {
           return (
-            <div className="col-md-4 mb-3 aos-init aos-animate " data-aos-duration="600" data-aos="flip-right" data-aos-delay="0" key={edge.node.id}>
+            <div className="col-md-4 mb-3 aos-init aos-animate" data-aos-duration="600" data-aos="flip-right" data-aos-delay="0" key={edge.node.id}>
 
-            <Card className="no-radius bg-dark h-100 ">
-                <Card.Img variant="top" src={edge.node.featuredImg.childImageSharp.fixed.src} />
+            <Card className="no-radius bg-dark h-100">
+                <Card.Img variant="top" src={edge.node.featuredImg.childImageSharp.fixed.src} alt={edge.node.frontmatter.featuredImgAlt} />
                 <Card.Body>
                     <a href={edge.node.frontmatter.slug} className="stretched-link"><Card.Title>{edge.node.frontmatter.title}</Card.Title></a>
                 </Card.Body>
