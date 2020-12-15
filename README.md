@@ -54,10 +54,10 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 This site runs off a github pages branch. To deploy follow these steps locally on your machine (assuming that you have git installed):
 
 ### Local deploy to Github Pages
-<code>
-npm run build<br />
+```bash
+npm run build
 npm run deploy
-</code>
+```
 
 ### Repository deploy to Netlify
 
