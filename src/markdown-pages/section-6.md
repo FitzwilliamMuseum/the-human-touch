@@ -4,7 +4,7 @@ slug: '/about/exhibition/revere-destroy'
 date: '2020-12-11'
 order: 6
 featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/706_1_detail_201308_dc1.jpg?key=directus-medium-crop'
-fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/706_1_detail_201308_dc1.jpg'
+fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/706_201306_small.png'
 featuredImgAlt: 'Jesus before Pilate: The Fitzwilliam Museum'
 description: "The sixth section of the exhibition - Revere/destroy"
 ---

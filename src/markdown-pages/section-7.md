@@ -4,7 +4,7 @@ slug: '/about/exhibition/the-power-in-your-hands'
 date: '2020-12-11'
 order: 7
 featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/rodinhand.jpg?key=directus-medium-crop'
-fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/rodinhand.jpg'
+fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/rodin_hand.jpg'
 featuredImgAlt: "Grande main crispée (Mighty hand): Private Collection"
 description: "The seventh section of the exhibition, the power in your hands"
 ---
