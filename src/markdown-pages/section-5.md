@@ -5,7 +5,7 @@ date: '2020-12-11'
 order: 5
 description: "The fifth section of the exhibition - The power of touch"
 featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/1960.400.jpg?key=directus-medium-crop'
-featuredImgAlt: 'Avalokitesvara'
+featuredImgAlt: "Avalokitesvara: Museum of Archaeology and Anthropology, Cambridge"
 ---
 The hand has been seen as an interface between the material and spiritual worlds. Tracing the lines of character and fate in the palm of the hand is for some a key to the soul. For others, the shape of the hand is a way of imagining god, a visual shorthand for divine power or divine blessings.
 
