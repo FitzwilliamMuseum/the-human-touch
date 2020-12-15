@@ -4,7 +4,8 @@ slug: '/about/exhibition/hands-at-work'
 date: '2020-12-11'
 order: 3
 featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/Hand%20of%20Frank%20Auerbach.png?key=directus-medium-crop'
-featuredImgAlt: 'Hands at Work Bensley'
+fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/Hand%20of%20Frank%20Auerbach.png'
+featuredImgAlt: "The photograph of Frank Auerbach’s hand: Katrin Bellinger Collection. © Nicola Bensley"
 description: "The third section of the exhibition - hands at work"
 ---
 

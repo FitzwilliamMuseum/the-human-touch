@@ -45,7 +45,7 @@ export default function Template({
             </div>
             <div className="col-md-4 p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
             <figure className="figure">
-            <img src={featuredImg.childImageSharp.fixed.src} className="img-fluid" alt={frontmatter.featuredImgAlt}/>
+            <img src={frontmatter.fullImageUrl} className="img-fluid" alt={frontmatter.featuredImgAlt}/>
             <figcaption className="figure-caption mt-2"><em>{frontmatter.featuredImgAlt}</em></figcaption>
             </figure>
             </div>
@@ -77,6 +77,7 @@ export const pageQuery = graphql`
         description
         order
         featuredImgUrl
+        fullImageUrl
         featuredImgAlt
       }
       featuredImg {

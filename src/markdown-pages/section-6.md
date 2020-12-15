@@ -4,7 +4,8 @@ slug: '/about/exhibition/revere-destroy'
 date: '2020-12-11'
 order: 6
 featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/706_1_detail_201308_dc1.jpg?key=directus-medium-crop'
-featuredImgAlt: 'Slashed panel'
+fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/706_1_detail_201308_dc1.jpg'
+featuredImgAlt: 'Jesus before Pilate: The Fitzwilliam Museum'
 description: "The sixth section of the exhibition - Revere/destroy"
 ---
 Acts of reverence and of protest often depend on touch. Our emotions are revealed in our gestures and how we treat the objects around us.
