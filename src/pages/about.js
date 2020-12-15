@@ -45,8 +45,10 @@ const About = () => (
        <p>
          Drawing on works of art spanning four thousand years and from across the
          globe, this exhibition explores the fundamental role of touch in human
-         experience, and offers new ways of looking. The curators explore anatomy
-         and skin; the relationship between the brain, hand, and creativity;
+         experience, and offers new ways of looking.
+        </p>
+        <p>
+        The curators explore anatomy and skin; the relationship between the brain, hand, and creativity;
          touch, desire and possession; ideological touch; reverence and iconoclasm.
          A final section collects a range of reflections, historic and contemporary,
          on touch.
@@ -73,18 +75,21 @@ const About = () => (
        </p>
       </div>
       <div className="col-md-4 aos-init aos-animate text-center " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
-        <img src="https://fitz-cms-images.s3.eu-west-2.amazonaws.com/handprint.jpg" className="img-fluid" alt="Handprint" width="400"/>
+        <figure className="figure">
+        <img src="https://fitz-cms-images.s3.eu-west-2.amazonaws.com/handprint.jpg" className="img-fluid" alt="Emil Orlik (1870-1932), Katrin Bellinger Collection. Photograph © Matthew Hollow." width="400"/>
+        <figcaption className="figure-caption mt-2 text-left"><em>Handprint of Emil Orlik (1870-1932), Katrin Bellinger Collection. Photograph © Matthew Hollow.</em></figcaption>
+        </figure>
       </div>
       </div>
     </div>
 
     <div className="container" style={{marginTop: `5rem`}}>
       <div className="themes">
-        <Themes/>
+        <Themes />
       </div>
     </div>
 
-    <Logos></Logos>
+    <Logos />
 
     <div className="container-fluid hands">
     </div>
