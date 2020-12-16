@@ -3,18 +3,9 @@ import React from "react"
 import Layout from "../components/layout"
 import Logos from "../components/logos"
 import SEO from "../components/seo"
-import Button from 'react-bootstrap/Button'
-import { Link } from "gatsby"
-
+import TopPanel from "../components/topPanel"
 import Themes from "../components/themes"
 
-// ..
-// AOS.init();
-
-
-// import Card from 'react-bootstrap/Card';
-// import Button from 'react-bootstrap/Button';
-// import { Link } from "gatsby"
 const About = () => (
 
     <Layout>
@@ -23,14 +14,7 @@ const About = () => (
     title="About the exhibition"
     description="This page documents the sections behind the Fitzwilliam Museum's exhibition on the Human Touch"
     />
-    <img src="https://fitz-cms-images.s3.eu-west-2.amazonaws.com/fv-logo-white.svg" alt="FitzVirtual Logo" width="200" />
-
-    <h1 style={{fontSize: `4rem`}}>The Human Touch</h1>
-    <p className="lead cover">Making Art | Leaving Traces</p>
-
-    <Button variant="btnBook"><Link to="https://tickets.museums.cam.ac.uk/overview/thehumantouch">Book now</Link></Button>
-
-    <p className="lead cover">6 January 2021 to 3 May 2021</p>
+    <TopPanel />
 
 
     <div className="text-justify container-fluid bg-white text-dark p-5 ml-0 mr-0 mt-5">
@@ -90,9 +74,6 @@ const About = () => (
     </div>
 
     <Logos />
-
-    <div className="container-fluid hands">
-    </div>
     </Layout>
   )
 export default About

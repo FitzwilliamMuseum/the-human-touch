@@ -5,9 +5,8 @@ import VideoEmbed from '../components/videoEmbed'
 import Layout from "../components/layout"
 import Logos from "../components/logos"
 import SEO from "../components/seo"
-import Button from 'react-bootstrap/Button'
-import { Link } from "gatsby"
 import Themes from "../components/themes"
+import TopPanel from "../components/topPanel"
 
 export default function Interactions() {
   return (
@@ -17,15 +16,8 @@ export default function Interactions() {
     title="Interactions and video"
     description="The Human Touch, a Fitzwilliam Museum exhibition has a variety of interactive components."
     />
+    <TopPanel/>
 
-    <img src="https://fitz-cms-images.s3.eu-west-2.amazonaws.com/fv-logo-white.svg" alt="FitzVirtual Logo" width="200" />
-
-    <h1 style={{fontSize: `4rem`}}>The Human Touch</h1>
-    <p className="lead cover">Making Art | Leaving Traces</p>
-
-    <Button variant="btnBook"><Link to="https://tickets.museums.cam.ac.uk/overview/thehumantouch">Book now</Link></Button>
-
-    <p className="lead cover">6 January 2021 to 3 May 2021</p>
 
     <div className="text-justify container-fluid bg-dark text-white mt-5">
       <div className="row">
@@ -68,10 +60,8 @@ export default function Interactions() {
        </div>
      </div>
 
-     <Logos></Logos>
+     <Logos/>
 
-     <div className="container-fluid hands">
-     </div>
     </Layout>
   )
 }

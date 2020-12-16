@@ -14,7 +14,7 @@ AOS.refresh();
 render () {
 
   return (
-
+<>
 <section className="content_31 bg-dark pb-3 text-center color-white mb-3 mt-30 p-5">
   <div className="container px-xl-0">
 
@@ -41,7 +41,9 @@ render () {
 
   </div>
 </section>
-
+<div className="container-fluid hands">
+</div>
+</>
 )}
 }
 export default Logos
