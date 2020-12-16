@@ -10,5 +10,4 @@
 <url> <loc>https://human-touch.beta.fitz.ms/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://human-touch.beta.fitz.ms/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://human-touch.beta.fitz.ms/interactions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://human-touch.beta.fitz.ms/objects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
