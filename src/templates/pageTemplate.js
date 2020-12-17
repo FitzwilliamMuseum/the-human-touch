@@ -59,9 +59,6 @@ export default function Template({
       </div>
 
       <Logos></Logos>
-
-      <div className="container-fluid hands">
-      </div>
     </Layout>
   )
 }

@@ -72,7 +72,6 @@ const About = () => (
         <Themes />
       </div>
     </div>
-
     <Logos />
     </Layout>
   )
