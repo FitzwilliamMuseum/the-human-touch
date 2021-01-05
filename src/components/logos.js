@@ -35,7 +35,7 @@ render () {
     <div className="row justify-content-center">
       <p className="text-center aos-init aos-animate mb-3" data-aos-duration="600" data-aos="fade-left" data-aos-delay="450">
       Fitzwilliam Museum Business Partners<br/>
-      TTP    |   Brewin Dolphin
+      TTP | Brewin Dolphin
       </p>
     </div>
 
