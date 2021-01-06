@@ -31,18 +31,6 @@ export default function Interactions() {
        </div>
      </div>
 
-     <div className="text-justify container-fluid bg-white text-dark mt-5">
-       <div className="row">
-          <div className="col-md-12 p-0 aos-init aos-animate" data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
-          <VideoEmbed
-             videoSrcURL="https://www.youtube.com/embed/kKsnFckFl74"
-             videoTitle="The Human Touch, Run at the Fitzwilliam Museum"
-             className="embed-responsive-item"
-           />
-          </div>
-        </div>
-      </div>
-
     <div className="text-justify container-fluid bg-white text-dark mt-5">
       <div className="row">
          <div className="col-md-12 p-0 aos-init aos-animate" data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
