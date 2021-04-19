@@ -18,6 +18,19 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    {
+      resolve: 'gatsby-source-directus-cms',
+      options: {
+        url: 'https://content.fitz.ms',
+        project: "fitz-website",
+        downloadFiles: true,
+        allowCollections: ['humantouch'],
+        auth: {
+          token: 'R37HZ4FjU4gPJL1ixMAvye5g',
+        },
+        targetStatuses: ['published', '__NONE__'],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
