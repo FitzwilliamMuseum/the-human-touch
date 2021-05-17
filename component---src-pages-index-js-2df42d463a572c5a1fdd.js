@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{RXBc:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),i=t.n(a),u=t("Bl7J"),c=t("vrFN"),l=t("vguY");n.default=function(){return i.a.createElement(u.a,null,i.a.createElement(c.a,{title:"Home",description:"The background to the Fitzwilliam Museum's brand new exhibition, the Human Touch"}),i.a.createElement(l.a,null))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-2df42d463a572c5a1fdd.js.map
