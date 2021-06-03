@@ -7,6 +7,7 @@ import { Link } from "gatsby"
 import Themes from "../components/themes"
 import Logos from "../components/logos"
 import Video from "../components/video"
+import Labels from "../components/labels"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -37,7 +38,7 @@ export default function Template({
         <div className="col-md-8 p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
           <h1>{frontmatter.title}</h1>
           <h2>
-            Section {frontmatter.order}
+            Section {frontmatter.section}
           </h2>
             <div
                 className="blog-post-content"
@@ -53,13 +54,16 @@ export default function Template({
           </div>
 
       </div>
+      <Labels
+      sectionIn={frontmatter.section}
+      />
       <div className="container" style={{marginTop: `5rem`}}>
         <div className="themes">
           <Themes/>
         </div>
       </div>
 
-      <Logos></Logos>
+      <Logos />
     </Layout>
   )
 }
@@ -77,6 +81,7 @@ export const pageQuery = graphql`
         featuredImgUrl
         fullImageUrl
         featuredImgAlt
+        section
       }
       featuredImg {
         childImageSharp {
@@ -94,4 +99,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+  `

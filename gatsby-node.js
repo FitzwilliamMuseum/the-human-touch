@@ -1,6 +1,5 @@
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
-
   const blogPostTemplate = require.resolve(`./src/templates/pageTemplate.js`)
   const objectPostTemplate = require.resolve(`./src/templates/objectTemplate.js`)
   return graphql(`
@@ -11,6 +10,7 @@ exports.createPages = ({ actions, graphql }) => {
             directusId
             title
             slug
+            section
           }
         }
       }
@@ -21,6 +21,7 @@ exports.createPages = ({ actions, graphql }) => {
               slug
               order
               title
+              section
             }
           }
         }
@@ -33,7 +34,7 @@ exports.createPages = ({ actions, graphql }) => {
     }
   result.data.allDirectusHumantouch.edges.forEach(({ node }) => {
 			createPage({
-				path: node.slug,
+				path: '/section-' + node.section + '/labels/' + node.slug,
 				component: objectPostTemplate,
         context: {
           // additional data can be passed via context
@@ -82,6 +83,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String!
       featuredImgUrl: String
       featuredImgAlt: String
+      section: String
     }
   `)
 }
