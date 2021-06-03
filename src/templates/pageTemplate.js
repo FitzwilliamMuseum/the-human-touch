@@ -2,8 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Button from 'react-bootstrap/Button'
-import { Link } from "gatsby"
+
 import Themes from "../components/themes"
 import Logos from "../components/logos"
 import Video from "../components/video"
@@ -14,7 +13,7 @@ export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data // data.markdownRemark holds our post data
-  const { frontmatter, featuredImg, html } = markdownRemark
+  const { frontmatter, html } = markdownRemark
   return (
     <Layout>
     <Video src='/teaser_two.mp4' className="fullscreen"/>
@@ -50,7 +49,9 @@ export default function Template({
       <Labels
       sectionIn={frontmatter.section}
       />
+      <div className="bg-white p-2"><h2 className="text-dark text-center">Sections of the exhibition</h2></div>
       <div className="container" style={{marginTop: `5rem`}}>
+
         <div className="themes">
           <Themes/>
         </div>

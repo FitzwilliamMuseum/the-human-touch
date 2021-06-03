@@ -1,8 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Button from 'react-bootstrap/Button'
-import { Link } from "gatsby"
 import Logos from "../components/logos"
 import Video from "../components/video"
 import Themes from "../components/themes"
@@ -11,7 +9,7 @@ export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { directusHumantouch } = data
-  const { title, description, slug, section, hero_image } = directusHumantouch
+  const { title, description, section, hero_image } = directusHumantouch
 
   return (
     <Layout>

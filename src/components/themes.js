@@ -18,6 +18,7 @@ const Themes = () => {
               title
               featuredImgAlt
               featuredImgUrl
+              section
             }
             featuredImg {
               childImageSharp {
@@ -49,6 +50,7 @@ const Themes = () => {
           <a href={edge.node.frontmatter.slug}><Card.Img variant="top" src={edge.node.featuredImg.childImageSharp.fixed.src} alt={edge.node.frontmatter.featuredImgAlt}/></a>
           <Card.Body>
           <a href={edge.node.frontmatter.slug}><Card.Title>{edge.node.frontmatter.title}</Card.Title></a>
+          <p>Section {edge.node.frontmatter.section}</p>
           </Card.Body>
           </Card >
           </div>
