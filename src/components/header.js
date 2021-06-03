@@ -18,20 +18,20 @@ const Header = ({ siteTitle }) => (
   Home
 </Link>
 <Link
-  to="/about"
+  to="/about/"
         getProps={isActive}
         className="nav-link"
       >
         About
       </Link>
       <Link
-        to="/interactions"
+        to="/interactions/"
               getProps={isActive}
               className="nav-link"
             >
               Interactions
             </Link>
-            
+
       </nav>
     </div>
   </header>
