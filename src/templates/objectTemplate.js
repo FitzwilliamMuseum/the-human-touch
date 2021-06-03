@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Logos from "../components/logos"
 import Video from "../components/video"
 import Themes from "../components/themes"
+import SEO from "../components/seo"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -12,6 +13,10 @@ export default function Template({
   const { title, description, section, hero_image } = directusHumantouch
 
   return (
+    <SEO
+    title={title}
+    description={title}
+    />
     <Layout>
     <Video src='/teaser_two.mp4' className="fullscreen"/>
 
