@@ -8,6 +8,7 @@ import Themes from "../components/themes"
 import Logos from "../components/logos"
 import Video from "../components/video"
 import Labels from "../components/labels"
+import TopPanel from "../components/topPanel"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -23,15 +24,7 @@ export default function Template({
     description={frontmatter.description}
     />
 
-    <img src="https://fitz-cms-images.s3.eu-west-2.amazonaws.com/fv-logo-white.svg" alt="FitzVirtual Logo" width="200" />
-
-    <h1 style={{fontSize: `4rem`}}>The Human Touch</h1>
-    <p className="lead cover">Making Art | Leaving Traces</p>
-
-    <Button variant="btnBook"><Link to="https://tickets.museums.cam.ac.uk/overview/thehumantouch">Book now</Link></Button>
-
-    <p className="lead cover">6 January 2021 to 3 May 2021</p>
-
+    <TopPanel/>
 
     <div className="text-justify container-fluid bg-white text-dark p-5 ml-0 mr-0 mt-5">
       <div className="row">
