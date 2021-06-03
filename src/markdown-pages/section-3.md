@@ -7,6 +7,7 @@ featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/Hand%20of%20Frank%2
 fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/Hand%20of%20Frank%20Auerbach.png'
 featuredImgAlt: "The photograph of Frank Auerbach’s hand: Katrin Bellinger Collection. © Nicola Bensley"
 description: "The third section of the exhibition - hands at work"
+section: Three
 ---
 
 Some artists depend on the full range of the hand’s capacities – strength, flexibility, delicacy. The intensive study of its anatomy is fundamental to the representation of proportion, balance and movement.

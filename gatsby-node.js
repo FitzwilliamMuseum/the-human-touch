@@ -1,31 +1,48 @@
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
-
   const blogPostTemplate = require.resolve(`./src/templates/pageTemplate.js`)
-
+  const objectPostTemplate = require.resolve(`./src/templates/objectTemplate.js`)
   return graphql(`
     {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000
-      ) {
+      allDirectusHumantouch {
+        edges {
+          node {
+            directusId
+            title
+            slug
+            section
+          }
+        }
+      }
+      allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000) {
         edges {
           node {
             frontmatter {
               slug
               order
               title
+              section
             }
           }
         }
       }
     }
+
   `).then(result => {
     if (result.errors) {
       return Promise.reject(result.errors)
     }
-
-    return result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  result.data.allDirectusHumantouch.edges.forEach(({ node }) => {
+			createPage({
+				path: '/section-' + node.section + '/labels/' + node.slug,
+				component: objectPostTemplate,
+        context: {
+          // additional data can be passed via context
+          slug: node.slug,
+        },
+			});
+		});
+    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.slug,
         component: blogPostTemplate,
@@ -33,9 +50,9 @@ exports.createPages = ({ actions, graphql }) => {
           // additional data can be passed via context
           slug: node.frontmatter.slug,
         },
-      })
-    })
-  })
+      });
+    });
+  });
 }
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   if (stage === "build-html") {
@@ -66,6 +83,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String!
       featuredImgUrl: String
       featuredImgAlt: String
+      section: String
     }
   `)
 }
