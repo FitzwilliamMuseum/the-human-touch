@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button'
 import { Link } from "gatsby"
 import Logos from "../components/logos"
 import Video from "../components/video"
+import Themes from "../components/themes"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -43,7 +44,11 @@ export default function Template({
           </div>
       </div>
 
-
+      <div className="container" style={{marginTop: `5rem`}}>
+        <div className="themes">
+          <Themes/>
+        </div>
+      </div>
       <Logos></Logos>
     </Layout>
   )
