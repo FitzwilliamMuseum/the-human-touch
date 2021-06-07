@@ -61,12 +61,16 @@ const About = () => (
       <div className="col-md-4 aos-init aos-animate text-center " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
         <figure className="figure">
         <img src="https://fitz-cms-images.s3.eu-west-2.amazonaws.com/handprint.jpg" className="img-fluid" alt="Emil Orlik (1870-1932), Katrin Bellinger Collection. Photograph © Matthew Hollow." width="400"/>
-        <figcaption className="figure-caption mt-2 text-left"><em>Handprint of Emil Orlik (1870-1932), Katrin Bellinger Collection. Photograph © Matthew Hollow.</em></figcaption>
+        <figcaption className="figure-caption mt-2 text-left">
+          <em>Handprint of Emil Orlik (1870-1932), Katrin Bellinger Collection. Photograph © Matthew Hollow.</em>
+        </figcaption>
         </figure>
       </div>
       </div>
     </div>
-
+    <div className="bg-white p-2">
+      <h2 className="text-dark text-center">Sections of the exhibition</h2>
+    </div>
     <div className="container" style={{marginTop: `5rem`}}>
       <div className="themes">
         <Themes />

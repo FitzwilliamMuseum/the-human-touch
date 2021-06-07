@@ -1,13 +1,13 @@
 ---
 title: 'Taking Hold'
-slug: '/about/exhibition/taking-hold'
+slug: '/exhibition/taking-hold'
 date: '2020-12-11'
 order: 4
 featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/posy.jpg?key=directus-medium-crop'
 fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/posy.jpg'
 featuredImgAlt: "A gimmel ring with fede motif: Fitzwillam Museum"
 description: "The fourth section of the exhibition - taking hold"
-section: Four
+section: taking-hold
 ---
 As humans we all share the desire to make our mark on the world around us, to draw on a pristine beach or disturb snow-covered ground. We have developed many ways to signal our presence to others, some universally accepted, others less so. Street art has been seen as a form of symbolic conquest, a way of staking claim on public spaces. Coats of arms, inscriptions and stamps on surfaces are other, historical ways to signal ownership.
 

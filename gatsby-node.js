@@ -34,7 +34,7 @@ exports.createPages = ({ actions, graphql }) => {
     }
   result.data.allDirectusHumantouch.edges.forEach(({ node }) => {
 			createPage({
-				path: '/section-' + node.section + '/labels/' + node.slug,
+				path: '/exhibition/labels/' + node.slug,
 				component: objectPostTemplate,
         context: {
           // additional data can be passed via context

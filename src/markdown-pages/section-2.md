@@ -1,13 +1,13 @@
 ---
 title: 'Anatomy of Touch'
-slug: '/about/exhibition/anatomy-of-touch'
+slug: '/exhibition/anatomy-of-touch'
 date: '2020-12-11'
 order: 2
 featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/hand.jpg?key=directus-medium-crop'
 fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/plate71CUDL.jpg'
 featuredImgAlt: "Engraving of dissected hand: The Syndics of Cambridge University Library"
 description: "The second section of the exhibition - The anatomy of touch"
-section: Two
+section: anatomy-of-touch
 ---
 Our bodies are enveloped by the organ of touch, the skin. Touch receptors connected to our nervous system are everywhere, but most densely clustered in our fingertips. Their sensitivity allows us to read tactile writing systems like Braille, and our fingerprints, fully formed at birth, are unique to each individual.
 

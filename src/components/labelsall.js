@@ -3,8 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import { Card } from 'react-bootstrap';
 
 
-const Labels = ({ sectionIn }) => {
-  const sectionPath = '/section-'
+const LabelsAll = ({ sectionIn }) => {
   const labelPath = '/labels/'
 
   const data = useStaticQuery(
@@ -44,12 +43,11 @@ const Labels = ({ sectionIn }) => {
 
   return (
     <div className="col-md-12 bg-white pt-3">
-    <h2 className="text-dark text-center">Selected objects from this section</h2>
+    <h2 className="text-dark text-center">Object labels from the exhibition</h2>
 
     <div className="row bg-white p-3 ">
     {data.allDirectusHumantouch.edges.map(edge => {
       let path = '/exhibition' + labelPath + edge.node.slug
-      if(edge.node.section_name === sectionIn){
       return (
         <div className="col-md-3 mb-3 aos-init aos-animate" data-aos-duration="600" data-aos="flip-right" data-aos-delay="0" key={edge.node.id}>
         <Card className="no-radius bg-dark h-100 highlight">
@@ -60,10 +58,10 @@ const Labels = ({ sectionIn }) => {
         </Card >
         </div>
       )
-    }
+
     })}
     </div>
     </div>
   )
 }
-export default Labels
+export default LabelsAll

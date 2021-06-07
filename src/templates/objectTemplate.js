@@ -13,11 +13,12 @@ export default function Template({
   const { title, description, section, hero_image } = directusHumantouch
 
   return (
+
+    <Layout>
     <SEO
     title={title}
     description={title}
     />
-    <Layout>
     <Video src='/teaser_two.mp4' className="fullscreen"/>
 
     <h1 style={{fontSize: `4rem`}}>The Human Touch</h1>
@@ -26,7 +27,7 @@ export default function Template({
 
     <div className="container-fluid bg-white text-dark p-5 ml-0 mr-0 mt-5">
       <div className="row">
-        <div className="text-justify col p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
+        <div className="text-justify col-md-6 p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
             <h2 className="lead">{title}</h2>
             <div
                 className="blog-post-content"
@@ -36,7 +37,7 @@ export default function Template({
               <h4 className="lead btn btn-dark">Section: { section}</h4>
             </div>
             </div>
-            <div className="col p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
+            <div className="col-md-6 p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
             <figure className="figure">
             <img src={ hero_image.data.thumbnails[5].url} className="img-fluid mx-auto" alt=""/>
             <figcaption className="figure-caption mt-2">
@@ -64,6 +65,7 @@ export const pageQuery = graphql`
       description
       slug
       section
+      section_name
       hero_image {
         id
         data {

@@ -104,7 +104,9 @@ export default function Interactions() {
     </div>
   </div>
 
-
+    <div className="bg-white p-2">
+      <h2 className="text-dark text-center">Sections of the exhibition</h2>
+    </div>
      <div className="container" style={{marginTop: `5rem`}}>
        <div className="themes">
          <Themes/>
