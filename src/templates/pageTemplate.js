@@ -27,11 +27,9 @@ export default function Template({
 
     <div className=" container-fluid bg-white text-dark p-5 ml-0 mr-0 mt-5">
       <div className="row">
-        <div className="col-md-8 p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
+        <div className="col-md-12 p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
           <h1>{frontmatter.title}</h1>
-          <h2>
-            Section {frontmatter.section}
-          </h2>
+
             <div
                 className="blog-post-content text-justify"
                 dangerouslySetInnerHTML={{ __html: html }}
@@ -39,12 +37,7 @@ export default function Template({
               <p className="sr-only">Word count {wordCount.words}</p>
 
             </div>
-            <div className="col-md-4 p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
-            <figure className="figure">
-            <img src={frontmatter.fullImageUrl} className="img-fluid" alt={frontmatter.featuredImgAlt}/>
-            <figcaption className="figure-caption mt-2"><em>{frontmatter.featuredImgAlt}</em></figcaption>
-            </figure>
-            </div>
+          
 
           </div>
 
