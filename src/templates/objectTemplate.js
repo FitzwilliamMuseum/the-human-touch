@@ -4,13 +4,14 @@ import Layout from "../components/layout"
 import Logos from "../components/logos"
 import Video from "../components/video"
 import Themes from "../components/themes"
+import Labels from "../components/labels"
 import SEO from "../components/seo"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { directusHumantouch } = data
-  const { title, description, section, hero_image } = directusHumantouch
+  const { title, description, section, section_name, hero_image } = directusHumantouch
 
   return (
 
@@ -34,7 +35,7 @@ export default function Template({
                 dangerouslySetInnerHTML={{ __html:description }}
               />
             <div className="sectionTitle">
-              <h4 className="lead btn btn-dark">Section: { section}</h4>
+              <h4 className="lead btn btn-dark">Section: { section }</h4>
             </div>
             </div>
             <div className="col-md-6 p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
@@ -47,7 +48,7 @@ export default function Template({
             </div>
           </div>
       </div>
-
+      <Labels sectionIn={section_name}/>
       <div className="container" style={{marginTop: `5rem`}}>
         <div className="themes">
           <Themes/>
