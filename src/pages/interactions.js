@@ -7,6 +7,7 @@ import Logos from "../components/logos"
 import SEO from "../components/seo"
 import Themes from "../components/themes"
 import TopPanel from "../components/topPanel"
+import Interviews from "../components/interviews"
 import { Card } from 'react-bootstrap';
 
 export default function Interactions() {
@@ -21,10 +22,14 @@ export default function Interactions() {
 
 
     <div className="text-justify container-fluid bg-white text-dark mt-5">
+    <h2 className="text-center mt-3">Interviews</h2>
+    <Interviews/>
+
       <div className="row">
 
 
       <div className="col-md-12">
+
         <h2 className="text-center mt-3">Videography</h2>
         <div className="row justify-content-center ">
 

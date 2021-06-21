@@ -24,34 +24,29 @@ export default function Template({
     />
 
     <TopPanel/>
-
+    <>
     <div className=" container-fluid bg-white text-dark p-5 ml-0 mr-0 mt-5">
       <div className="row">
         <div className="col-md-12 p-3 aos-init aos-animate " data-aos-duration="600" data-aos="fade-left" data-aos-delay="0">
           <h1>{frontmatter.title}</h1>
-
             <div
-                className="blog-post-content text-justify"
+                className="text blog-post-content text-justify"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
               <p className="sr-only">Word count {wordCount.words}</p>
-
             </div>
-          
-
           </div>
-
       </div>
-      <Labels
-      sectionIn={frontmatter.section}
-      />
+      </>
+    {frontmatter.section !== 'interviews'  && <>
+      <Labels sectionIn={frontmatter.section} />
       <div className="bg-white p-2"><h2 className="text-dark text-center">Sections of the exhibition</h2></div>
       <div className="container" style={{marginTop: `5rem`}}>
-
         <div className="themes">
           <Themes/>
         </div>
       </div>
+      </>}
 
       <Logos />
     </Layout>
