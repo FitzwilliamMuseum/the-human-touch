@@ -9,7 +9,7 @@ featuredImgAlt: "Giacomo Bufarini Run With His Mural My Many Hands (2020) © Nel
 section: 'interviews'
 ---
 <figure class="figure float-right p-2 ml-2 my-2">
-  <img src="https://content.fitz.ms/fitz-website/assets/run.jpg?key=directus-large-contain" class="img-fluid" />
+  <img src="https://content.fitz.ms/fitz-website/assets/run.jpg?key=directus-large-contain" class="img-fluid" alt="Giacomo Bufarini Run With His Mural My Many Hands (2020) &copy; Nelly Duff 2021"/>
   <figcaption class="figure-caption">Giacomo Bufarini Run With His Mural My Many Hands (2020) &copy; Nelly Duff 2021</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ I started by sketching the hands on paper, using watercolour, which by definitio
 I love to see artefacts that are big in scale. If and when I can, I love to create something that is visible from many miles away. I did a painting once that was visible from a satellite! I like to take over spaces, but at the end it is only for a limited time in history, and then it will fade away.
 
 <figure class="figure  p-2 my-2">
-  <img src="https://content.fitz.ms/fitz-website/assets/parkside.jpg?key=directus-large-contain" class="img-fluid" />
+  <img src="https://content.fitz.ms/fitz-website/assets/parkside.jpg?key=directus-large-contain" alt="Giacomo Bufarini_RUN Parkside Pool Mural (2020) © Nelly Duff 2021" class="img-fluid" />
   <figcaption class="figure-caption">Giacomo Bufarini_RUN Parkside Pool Mural (2020) © Nelly Duff 2021</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ Creating an outdoor mural to me is like accomplishing and resolving a mission. T
 The main challenge was the weather and wet air. This is always a risk when painting outdoors. I need to deal with the sky, clouds, position of the wall regarding the sun and of course the seasons.
 
 <figure class="figure p-2 my-2">
-  <img src="https://content.fitz.ms/fitz-website/assets/Jesus_Green_Lido.jpg?key=directus-large-contain" class="img-fluid" />
+  <img src="https://content.fitz.ms/fitz-website/assets/Jesus_Green_Lido.jpg?key=directus-large-contain" alt="Jesus Green Lido by Giacomo Bufarini_RUN © Nelly Duff 2021" class="img-fluid" />
   <figcaption class="figure-caption">Jesus Green Lido by Giacomo Bufarini_RUN © Nelly Duff 2021</figcaption>
 </figure>
 

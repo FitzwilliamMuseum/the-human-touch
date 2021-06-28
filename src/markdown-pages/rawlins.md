@@ -10,7 +10,7 @@ section: 'interviews'
 ---
 
 <figure class="figure float-right p-2 ml-2 my-2">
-  <img src="https://content.fitz.ms/fitz-website/assets/RichardMarkRawlins.jpg?key=directus-large-contain" class="img-fluid" />
+  <img src="https://content.fitz.ms/fitz-website/assets/RichardMarkRawlins.jpg?key=directus-large-contain" alt="Richard Mark Rawlins" class="img-fluid" />
   <figcaption class="figure-caption">Richard Mark Rawlins</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ My friend, Dr. Carol Ann Dixon, put it this way: “To me, the raising of a hand
 My work is symbolic. I think in pictures – it’s how I make sense of what I read and the world around me. What does the clenched fist mean and imply? I think that symbols are designed to invoke, like physical touch, certain responses, and much like physical touch, certain emotions. So the notion of touch as a theme is symbolic in my work. For example, some patrons at the 2019 exhibition, “Get Up Stand Up Now”, saw Empowerment as a statement of resistance to otherness. Some people bought postcards of the work and have it at home as a cherished object. When someone makes a work, they can only hope that it evokes some sort of connection or personal resonance, a story or a memory. Beyond that hope, artists have no real control, bar establishing a definitive supporting text of finality around the work. In 2020, the symbol of the fist became a way of presenting solidarity for some people. In lieu of Black Squares being posted on social media during the George Floyd moment, quite a few people of colour posted Empowerment, and even actress Emma Watson who alongside sharing the image, noted: “One thing we can all do to honour the struggle for racial justice in the US is to interrogate, understand and dismantle the racist structures of our own countries.” Empowerment has come to embody so many things to so many people.
 
 <figure class="figure  p-2 my-2">
-  <img src="https://content.fitz.ms/fitz-website/assets/empowerment.jpg?key=directus-large-contain" class="img-fluid" />
+  <img src="https://content.fitz.ms/fitz-website/assets/empowerment.jpg?key=directus-large-contain" class="img-fluid" alt="Empowerment, from series I AM SUGAR. London. 2018. Digital print on paper © Richard Mark Rawlins"/>
   <figcaption class="figure-caption">Empowerment, from series I AM SUGAR. London. 2018. Digital print on paper © Richard Mark Rawlins</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ My work is symbolic. I think in pictures – it’s how I make sense of what I r
 There most definitely is a dialogue between the two. One look at Grande main crispée (Mighty hand) almost makes that point. That outstretched hand, full of all its power and frustration, like Empowerment, is unbound. Neither knows shackles. They are both speaking for themselves and both hold agency. As it is put in the catalogue, the outstretched hand supports those in need, reaches out across divisions, and seals the bond between individuals, communities and nations. Both hands, raised and upright, assert identity and a very real sense of political power.
 
 <figure class="figure  p-2 my-2">
-  <img src="https://content.fitz.ms/fitz-website/assets/empowerment_and_rodin.jpg?key=directus-large-contain" class="img-fluid" />
+  <img src="https://content.fitz.ms/fitz-website/assets/empowerment_and_rodin.jpg?key=directus-large-contain" alt="Empowerment and Rodin's Grande main crispée" class="img-fluid" />
   <figcaption class="figure-caption">Empowerment and Rodin's Grande main crispée</figcaption>
 </figure>
 
