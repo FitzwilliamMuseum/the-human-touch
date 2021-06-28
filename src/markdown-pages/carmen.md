@@ -10,7 +10,7 @@ section: 'interviews'
 ---
 
 <figure class="figure float-right p-2 ml-2 my-2">
-  <img src="https://content.fitz.ms/fitz-website/assets/CarmenMariscal.jpg?key=directus-large-contain" class="img-fluid" />
+  <img src="https://content.fitz.ms/fitz-website/assets/CarmenMariscal.jpg?key=directus-large-contain" class="img-fluid" alt="Carmen Mariscal &copy; Regina Mountjoy"/>
   <figcaption class="figure-caption">Carmen Mariscal &copy; Regina Mountjoy</figcaption>
 </figure>
 
