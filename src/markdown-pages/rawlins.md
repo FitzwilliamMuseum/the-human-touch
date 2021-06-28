@@ -8,6 +8,13 @@ fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/RichardMarkRawlins.jp
 featuredImgAlt: "Richard Mark Rawlins"
 section: 'interviews'
 ---
+
+<figure class="figure float-right p-2 ml-2 my-2">
+  <img src="https://content.fitz.ms/fitz-website/assets/RichardMarkRawlins.jpg?key=directus-large-contain" class="img-fluid" />
+  <figcaption class="figure-caption">Richard Mark Rawlins</figcaption>
+</figure>
+
+
 **Richard Mark Rawlins was born in Trinidad & Tobago, and currently lives and works in Hastings, UK. For The Human Touch exhibition, Rawlins shows his work Empowerment (2018) and has contributed to the exhibition’s catalogue with his essay, ‘A Show of Hands’. Find out more about the artist and the context of his work.**
 
 **Throughout the global pandemic, our hands have never been more scrutinised from how we wash them, to what we touch, and how we use them to communicate with one another. Has this new focus on our hands given your work, Empowerment (2018), new meaning?**
@@ -22,9 +29,20 @@ My friend, Dr. Carol Ann Dixon, put it this way: “To me, the raising of a hand
 
 My work is symbolic. I think in pictures – it’s how I make sense of what I read and the world around me. What does the clenched fist mean and imply? I think that symbols are designed to invoke, like physical touch, certain responses, and much like physical touch, certain emotions. So the notion of touch as a theme is symbolic in my work. For example, some patrons at the 2019 exhibition, “Get Up Stand Up Now”, saw Empowerment as a statement of resistance to otherness. Some people bought postcards of the work and have it at home as a cherished object. When someone makes a work, they can only hope that it evokes some sort of connection or personal resonance, a story or a memory. Beyond that hope, artists have no real control, bar establishing a definitive supporting text of finality around the work. In 2020, the symbol of the fist became a way of presenting solidarity for some people. In lieu of Black Squares being posted on social media during the George Floyd moment, quite a few people of colour posted Empowerment, and even actress Emma Watson who alongside sharing the image, noted: “One thing we can all do to honour the struggle for racial justice in the US is to interrogate, understand and dismantle the racist structures of our own countries.” Empowerment has come to embody so many things to so many people.
 
+<figure class="figure  p-2 my-2">
+  <img src="https://content.fitz.ms/fitz-website/assets/empowerment.jpg?key=directus-large-contain" class="img-fluid" />
+  <figcaption class="figure-caption">Empowerment, from series I AM SUGAR. London. 2018. Digital print on paper © Richard Mark Rawlins</figcaption>
+</figure>
+
 **Empowerment (2018), sits within ‘The Power is in your Hands’ section of the exhibition and is adjacent to Rodin’s Grande main crispée (Mighty hand). Do you think there is a dialogue between the two pieces?**
 
 There most definitely is a dialogue between the two. One look at Grande main crispée (Mighty hand) almost makes that point. That outstretched hand, full of all its power and frustration, like Empowerment, is unbound. Neither knows shackles. They are both speaking for themselves and both hold agency. As it is put in the catalogue, the outstretched hand supports those in need, reaches out across divisions, and seals the bond between individuals, communities and nations. Both hands, raised and upright, assert identity and a very real sense of political power.
+
+<figure class="figure  p-2 my-2">
+  <img src="https://content.fitz.ms/fitz-website/assets/empowerment_and_rodin.jpg?key=directus-large-contain" class="img-fluid" />
+  <figcaption class="figure-caption">Empowerment and Rodin's Grande main crispée</figcaption>
+</figure>
+
 
 **Your essay ‘A Show of Hands’ discusses your body of work ‘I Am Sugar’ and the inspiration behind it, specifically referencing the essay by cultural theorist Stuart Hall ‘Old and New Identities, Old and New Ethnicities’ (1991). Do you think showing Empowerment (2018) not alongside the rest of the series encourages the viewer to reflect upon race more, especially given the historical and contemporary context of a black hand making a fist gesture?**
 

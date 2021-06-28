@@ -3,11 +3,16 @@ title: 'Carmen Mariscal'
 description: "An interview with Carmen Mariscal"
 slug: '/interactions/interviews/carmenmariscal'
 date: '2021-06-20'
-featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/carmen.jpg?key=directus-medium-crop'
-fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/carmen.jpg'
+featuredImgUrl: 'https://content.fitz.ms/fitz-website/assets/CarmenMariscal.jpg?key=directus-medium-crop'
+fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/CarmenMariscal.jpg'
 featuredImgAlt: "Carmen's Inspiration  Figurine. Clay Execration Figure. Production Egypt. Find Spotproduction Place Egypt. Length 12cm, Circa 2160 To Circa 1650 B.c. First Intermediate Period Middle Kingdom."
 section: 'interviews'
 ---
+
+<figure class="figure float-right p-2 ml-2 my-2">
+  <img src="https://content.fitz.ms/fitz-website/assets/CarmenMariscal.jpg?key=directus-large-contain" class="img-fluid" />
+  <figcaption class="figure-caption">Carmen Mariscal &copy; Regina Mountjoy</figcaption>
+</figure>
 
 **Mexican visual artist Carmen Mariscal lives and works in London. She works in a range of media but has specifically made three cyanotype prints for The Human Touch catalogue, as part of her essay, ‘On Bound Hands’. Discover more about the artist and the work she has created in connection with this thought-provoking show.**
 
@@ -36,6 +41,22 @@ Restrictions started to lift and people went to see the sculpture but almost no 
 One of the exhibition curators, Suzanne Reynolds, had seen images of my exhibition [La Esposa Esposada (The Hand Cuffed Wife)](https://www.carmenmariscal.com/en/work#/la-esposa-esposada/) and thought that there were many similarities with the ‘Figure with Bound Hands’. I was intrigued by this figure, I did research about it and I spoke to Suzanne Reynolds and to co-curator Elenor Ling to know more about the history of the piece.
 
 When I saw images of the small terracotta figure it reminded me of one of my early series [La Novia Puesta en Abimso (The Bride Mise en Abyme)](https://www.carmenmariscal.com/en/work#/la-novia/). I was particularly interested in the representation of a woman with tied hands and this made me reflect, as I have done in several bodies of work, on women´s situations around the globe where their hands and minds are symbolically bound, where they feel helpless and have no agency.
+
+<div class="col-md-12">
+  <div class="row">
+    <div class="col-md-6">
+      <figure class="figure p-2 ml-2 my-2">
+        <img src="https://content.fitz.ms/fitz-website/assets/carmen_inspiration.jpg?key=directus-large-contain" class="img-fluid" />
+        <figcaption class="figure-caption">Carmen_s inspiration_ Figurine. Clay execration figure. Production Egypt. Find SpotProduction Place Egypt. Length 12cm, circa 2160 to circa 1650 B.C. First Intermediate Period-Middle Kingdom..jpg</figcaption>
+      </figure>
+    </div>
+    <div class="col-md-6">
+      <figure class="figure p-2 ml-2 my-2">
+        <img src="https://content.fitz.ms/fitz-website/assets/cyanotype_blue.jpg?key=directus-large-contain" class="img-fluid" />
+        <figcaption class="figure-caption">Cyanotype of Figure with bound hands_ cyanotype of image from La Esposa Esposada (‘The Handcuffed Wife’) project_ cyanotype of image from La Novia Puesta en Abismo (‘The Bride mise en abyme’) © Carmen Mariscal</figcaption>
+      </figure>
+    </div>
+</div>
 
 **Are there any other objects in the exhibition that speak to your own practice?**
 

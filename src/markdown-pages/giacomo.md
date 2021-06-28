@@ -8,6 +8,11 @@ fullImageUrl: 'https://content.fitz.ms/fitz-website/assets/run.jpg'
 featuredImgAlt: "Giacomo Bufarini Run With His Mural My Many Hands (2020) © Nelly Duff 2021"
 section: 'interviews'
 ---
+<figure class="figure float-right p-2 ml-2 my-2">
+  <img src="https://content.fitz.ms/fitz-website/assets/run.jpg?key=directus-large-contain" class="img-fluid" />
+  <figcaption class="figure-caption">Giacomo Bufarini Run With His Mural My Many Hands (2020) &copy; Nelly Duff 2021</figcaption>
+</figure>
+
 
 **Italian-born street artist Giacomo Bufarini, known as RUN, has created three bold and colourful wall murals for The Human Touch exhibition. Find out more about RUN and his inspiration behind his murals, and how he explores the theme of touch.**
 
@@ -33,6 +38,11 @@ I started by sketching the hands on paper, using watercolour, which by definitio
 
 I love to see artefacts that are big in scale. If and when I can, I love to create something that is visible from many miles away. I did a painting once that was visible from a satellite! I like to take over spaces, but at the end it is only for a limited time in history, and then it will fade away.
 
+<figure class="figure  p-2 my-2">
+  <img src="https://content.fitz.ms/fitz-website/assets/parkside.jpg?key=directus-large-contain" class="img-fluid" />
+  <figcaption class="figure-caption">Giacomo Bufarini_RUN Parkside Pool Mural (2020) © Nelly Duff 2021</figcaption>
+</figure>
+
 **Does your style echo the renaissance frescoes, is your work connected to your Italian roots?**
 
 Being born and raised in Italy, I have been fed frescos and other classical art by master painters since I was born. Our churches have paintings, the adverts on TV, pictures in my grandma’s house depicting images of Caravaggio from the San Luigi dei Francesi Church;  they have all influenced me. And then intensely at art school when I was teenager. I think that the difference from Italy’s art schools and British ones, is that we give massive importance to the perfection of the anatomy and classical art before we can talk about any personal style of stroke. It is right in a way that you need to know the rules before breaking them. But, it is also quite frustrating not being able to be free in your creation and explore yourself when you are young.
@@ -48,6 +58,11 @@ Creating an outdoor mural to me is like accomplishing and resolving a mission. T
 **What were the challenges of creating murals in these locations (Park Side Pool and Jesus Green Lido)?**
 
 The main challenge was the weather and wet air. This is always a risk when painting outdoors. I need to deal with the sky, clouds, position of the wall regarding the sun and of course the seasons.
+
+<figure class="figure p-2 my-2">
+  <img src="https://content.fitz.ms/fitz-website/assets/Jesus_Green_Lido.jpg?key=directus-large-contain" class="img-fluid" />
+  <figcaption class="figure-caption">Jesus Green Lido by Giacomo Bufarini_RUN © Nelly Duff 2021</figcaption>
+</figure>
 
 **How did you choose the mural sites in Cambridge, why those particular areas of town?**
 
