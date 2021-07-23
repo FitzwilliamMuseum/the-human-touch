@@ -66,4 +66,6 @@ I have missed seeing people viewing my work in physical spaces though. One key a
 
 __* The postponement of the show’s opening from 6 January to 18 May sadly meant that this work, which was promised to another exhibition for the summer, is no longer on display in The Human Touch.__
 
-__** In 2020 the Fitzwilliam Museum acquired a set of ten etchings by Lynette Yiadom-Boakye called ‘First Flight’ (2015), P.96-2020. You can read more about them on the [UCM blog](https://www.museums.cam.ac.uk/blog/2021/04/20/free-as-a-bird-lynette-yiadom-boakyes-first-flight-2015/) Sign up to our e-news to find out when they will be on display.__
+__** In 2020 the Fitzwilliam Museum acquired a set of ten etchings by Lynette Yiadom-Boakye called ‘First Flight’ (2015), P.96-2020. You can read more about them on the [UCM blog](https://www.museums.cam.ac.uk/blog/2021/04/20/free-as-a-bird-lynette-yiadom-boakyes-first-flight-2015/)__
+
+<a href="https://tickets.museums.cam.ac.uk/account/create" class="share btn btn-dark">Sign up to our e-news to find out when they will be on display.</a>

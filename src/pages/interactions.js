@@ -104,6 +104,17 @@ export default function Interactions() {
             </Card.Body>
             </Card >
             </div>
+            <div className="col-md-4 mb-3 mt-3 aos-init aos-animate" data-aos-duration="600" data-aos="flip-right" data-aos-delay="0" >
+            <Card className="no-radius bg-dark h-100 highlight">
+            <Card.Body>
+            <VideoEmbed
+               videoSrcURL="https://www.youtube.com/embed/YaPPiesRE5I"
+               videoTitle="Matthew Champion lecture - Medieval graffiti film"
+               className="embed-responsive-item"
+             />
+            </Card.Body>
+            </Card >
+            </div>
         </div>
       </div>
     </div>
