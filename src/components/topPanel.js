@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from "gatsby"
 
 export default class TopPanel extends Component {
 
@@ -13,5 +12,4 @@ export default class TopPanel extends Component {
       </>
     )
   }
-
 }
