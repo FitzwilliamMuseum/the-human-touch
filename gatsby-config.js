@@ -5,8 +5,8 @@ module.exports = {
     description: `The Fitzwilliam Museum's spring exhibition - The Human Touch - 6th January to 21st May 2020`,
     author: `@dejpett`,
     image: `/handprint.jpg`,
-    url: `https://human-touch.beta.fitz.ms`,
-    siteUrl: `https://human-touch.beta.fitz.ms`
+    url: `https://human-touch.fitzmuseum.cam.ac.uk`,
+    siteUrl: `https://human-touch.fitzmuseum.cam.ac.uk`
   },
   plugins: [
     `gatsby-plugin-sitemap`,
